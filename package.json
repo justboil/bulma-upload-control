@@ -1,6 +1,6 @@
 {
   "name": "bulma-upload-control",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Styled upload control for Bulma CSS Framework",
   "homepage": "https://justboil.me/",
   "main": "scss/main.scss",
@@ -12,7 +12,8 @@
     "form",
     "input",
     "controls",
-    "checkbox"
+    "upload",
+    "file"
   ],
   "scripts": {
     "build": "gulp",
