@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bulma Upload Button Controls</title>
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/main.min.css">
+  <style type="text/css">
+    h1.title, h3.subtitle {
+      text-align: center;
+    }
+    h1.title {
+      font-weight: 900;
+    }
+    .is-main h1.title {
+      font-size: 3rem;
+    }
+    .is-main h3.subtitle {
+      font-size: 2rem;
+    }
+    footer.footer .logo img {
+      max-height: 30px;
+      width: auto;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar is-light is-spaced" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://justboil.me">
+        <img src="https://justboil.me/images/justboil-logo-black.png" alt="Bulma Admin Templates">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href="https://github.com/justboil/bulma-upload-control" class="button is-small">
+              <span class="icon">
+                <i class="mdi mdi-github-circle"></i>
+              </span>
+              <span>Back to GitHub Repo</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="hero is-light is-main">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        <span class="icon">
+          <i class="mdi mdi-bulma"></i>
+        </span>
+        Bulma Upload Button Controls
+      </h1>
+      <h3 class="subtitle">No JS. CSS/SCSS-only package for Bulma</h3>
+    </div>
+  </div>
+</section>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-left">
+        Colors & States
+      </h1>
+      <h3 class="subtitle has-text-left">Freely combine with sizes</h3>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-primary">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-info">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-success">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-danger">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-warning">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-loading is-primary">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-loading is-info">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-loading is-success">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-loading is-danger">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-loading is-warning">
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file">
+          </label>
+        </div>
+      </div>
+      <div class="column">
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-primary" disabled>
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file" disabled>
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-info" disabled>
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file" disabled>
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-success" disabled>
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file" disabled>
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-danger" disabled>
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file" disabled>
+          </label>
+        </div>
+
+        <div class="field">
+          <label class="upload control">
+            <a class="button is-warning" disabled>
+              <span class="icon"><i class="mdi mdi-upload"></i></span>
+              <span>Click to upload</span>
+            </a>
+            <input type="file" disabled>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-left">
+        Sizes
+      </h1>
+      <h3 class="subtitle has-text-left">Freely combine with colors</h3>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="field file">
+      <label class="upload control">
+        <a class="button is-small is-primary">
+          <span class="icon"><i class="mdi mdi-upload"></i></span>
+          <span>Click to upload</span>
+        </a>
+        <input type="file">
+      </label>
+    </div>
+    <div class="field file">
+      <label class="upload control">
+        <a class="button is-primary">
+          <span class="icon"><i class="mdi mdi-upload"></i></span>
+          <span>Click to upload</span>
+        </a>
+        <input type="file">
+      </label>
+    </div>
+    <div class="field file">
+      <label class="upload control">
+        <a class="button is-medium is-primary">
+          <span class="icon"><i class="mdi mdi-upload"></i></span>
+          <span>Click to upload</span>
+        </a>
+        <input type="file">
+      </label>
+    </div>
+    <div class="field file">
+      <label class="upload control">
+        <a class="button is-large is-primary">
+          <span class="icon"><i class="mdi mdi-upload"></i></span>
+          <span>Click to upload</span>
+        </a>
+        <input type="file">
+      </label>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-left">
+        With filename
+      </h1>
+      <h3 class="subtitle has-text-left">CSS only. JS implementation required for filename display</h3>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="field file has-addons">
+      <label class="upload control">
+        <a class="button is-small is-primary">
+          <span class="icon"><i class="mdi mdi-upload"></i></span>
+          <span>Click to upload</span>
+        </a>
+        <input type="file">
+      </label>
+      <p class="control">
+        <a class="button is-small is-static">
+          repository-preview-hi-res.png
+        </a>
+      </p>
+    </div>
+
+    <div class="field file has-addons">
+      <label class="upload control">
+        <a class="button is-primary">
+          <span class="icon"><i class="mdi mdi-upload"></i></span>
+          <span>Click to upload</span>
+        </a>
+        <input type="file">
+      </label>
+      <p class="control">
+        <a class="button is-static">
+          repository-preview-hi-res.png
+        </a>
+      </p>
+    </div>
+
+    <div class="field file has-addons">
+      <label class="upload control">
+        <a class="button is-medium is-primary">
+          <span class="icon"><i class="mdi mdi-upload"></i></span>
+          <span>Click to upload</span>
+        </a>
+        <input type="file">
+      </label>
+      <p class="control">
+        <a class="button is-medium is-static">
+          repository-preview-hi-res.png
+        </a>
+      </p>
+    </div>
+
+    <div class="field file has-addons">
+      <label class="upload control">
+        <a class="button is-large is-primary">
+          <span class="icon"><i class="mdi mdi-upload"></i></span>
+          <span>Click to upload</span>
+        </a>
+        <input type="file">
+      </label>
+      <p class="control">
+        <a class="button is-large is-static">
+          repository-preview-hi-res.png
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title has-text-left">
+        Drag & drop
+      </h1>
+      <h3 class="subtitle has-text-left">
+        CSS only. JS implementation required
+      </h3>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <label class="upload control is-expanded">
+      <div class="upload-draggable is-primary is-expanded">
+        <section class="section">
+          <div class="content has-text-centered">
+            <p><span class="icon is-large"><i class="mdi mdi-upload mdi-48px"></i></span></p>
+            <p>Drop your files here or click to upload</p>
+          </div>
+        </section>
+      </div>
+      <input type="file" multiple="multiple">
+    </label>
+    <label class="upload control is-expanded">
+      <div class="upload-draggable is-primary is-expanded is-loading">
+        <section class="section">
+          <div class="content has-text-centered">
+            <p><span class="icon is-large"><i class="mdi mdi-upload mdi-48px"></i></span></p>
+            <p>Drop your files here or click to upload</p>
+          </div>
+        </section>
+      </div>
+      <input type="file" multiple="multiple">
+    </label>
+    <h1 class="title">Disabled</h1>
+    <label class="upload control is-expanded">
+      <div class="upload-draggable is-primary is-expanded is-disabled">
+        <section class="section">
+          <div class="content has-text-centered">
+            <p><span class="icon is-large"><i class="mdi mdi-upload mdi-48px"></i></span></p>
+            <p>Drop your files here or click to upload</p>
+          </div>
+        </section>
+      </div>
+      <input type="file" multiple="multiple" disabled>
+    </label>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        <div class="logo">
+          <a href="https://justboil.me">
+            <img src="https://justboil.me/images/justboil-logo-black.png" alt="Bulma Admin Templates">
+          </a>
+        </div>
+      </div>
+      <div class="column is-narrow">
+        <div class="buttons">
+          <a href="https://github.com/justboil/bulma-upload-control" class="button is-small">
+              <span class="icon">
+                <i class="mdi mdi-github-circle"></i>
+              </span>
+            <span>GitHub Repo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Icons below are for demo-only. Feel free to use any icon pack. Docs: https://bulma.io/documentation/elements/icon/ -->
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css">
+</body>
+</html>
