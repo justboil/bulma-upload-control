@@ -1,4 +1,4 @@
 @import "node_modules/bulma/sass/utilities/all";
 
-$upload-file-name-background-color: $white;
-$upload-file-name-color: $black-ter;
+$upload-file-name-background-color: $white !default;
+$upload-file-name-color: $black-ter !default;
